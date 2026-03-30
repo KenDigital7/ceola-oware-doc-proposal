@@ -8,10 +8,10 @@ type VimeoVideo = {
 };
 
 const VIDEOS: VimeoVideo[] = [
-  { id: "1161240020", h: "09bde37f29", title: "Interview — Sample 1" },
-  { id: "1163159879", h: "b0eff44a22", title: "Interview — Sample 2" },
-  { id: "1169068989", title: "Documentary Work — Sample 3" },
-  { id: "1169069067", title: "Documentary Work — Sample 4" },
+  { id: "1161240020", h: "09bde37f29", title: "Interview Reel" },
+  { id: "1163159879", h: "b0eff44a22", title: "Historical Montage Spotlight" },
+  { id: "1169068989", title: "Family Storytelling" },
+  { id: "1169069067", title: "Homemade Video Sample" },
 ];
 
 function vimeoSrc({ id, h }: VimeoVideo) {
