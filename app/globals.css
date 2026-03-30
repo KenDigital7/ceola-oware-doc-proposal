@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-paper text-ink antialiased;
+}
+
+/* Proposal tables: archive/document feel */
+.doc-prose table {
+  @apply text-sm;
+}
+
+.doc-prose thead {
+  @apply border-b-2 border-umber/40;
+}
+
+.doc-prose tbody tr {
+  @apply border-b border-paper-dark;
+}
