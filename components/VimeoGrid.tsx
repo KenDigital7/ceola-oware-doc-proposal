@@ -20,6 +20,7 @@ function vimeoSrc({ id, h }: VimeoVideo) {
     byline: "0",
     portrait: "0",
     dnt: "1",
+    color: "c8913a",
   });
   if (h) params.set("h", h);
   return `https://player.vimeo.com/video/${id}?${params.toString()}`;
@@ -29,26 +30,31 @@ export function VimeoGrid() {
   return (
     <section
       aria-labelledby="sample-work-heading"
-      className="mx-auto max-w-doc px-5 pb-14 pt-10 sm:px-8"
+      className="mx-auto max-w-doc px-6 pb-16 pt-12 sm:px-10"
     >
-      {/* Divider */}
-      <hr className="mb-10 border-paper-dark" />
+      {/* Section label */}
+      <div className="mb-10 flex items-center gap-4">
+        <span className="text-xs uppercase tracking-widest text-foreground-subtle">
+          Sample Work
+        </span>
+        <div className="flex-1 border-t border-border" />
+      </div>
 
       <h2
         id="sample-work-heading"
-        className="mb-2 font-serif text-2xl font-semibold text-ink"
+        className="mb-3 font-serif text-3xl font-normal tracking-tight text-foreground sm:text-4xl"
       >
-        Sample Work
+        Previous Work
       </h2>
-      <p className="mb-8 text-sm leading-relaxed text-ink/65">
-        Previous interviews and documentary productions for reference.
+      <p className="mb-10 max-w-measure text-base leading-relaxed text-foreground-muted">
+        A selection of interview and documentary productions for reference — demonstrating approach, craft, and editorial standard.
       </p>
 
-      <div className="grid gap-6 sm:grid-cols-2">
-        {VIDEOS.map((video) => (
-          <figure key={video.id} className="flex flex-col gap-2">
+      <div className="grid gap-8 sm:grid-cols-2">
+        {VIDEOS.map((video, i) => (
+          <figure key={video.id} className="flex flex-col gap-3">
             <div
-              className="relative w-full overflow-hidden rounded-sm border border-paper-dark bg-paper-dark/50"
+              className="relative w-full overflow-hidden border border-border bg-surface"
               style={{ paddingBottom: "56.25%" /* 16:9 */ }}
             >
               <iframe
@@ -60,10 +66,16 @@ export function VimeoGrid() {
                 className="absolute inset-0 h-full w-full"
               />
             </div>
-            <figcaption className="text-xs text-ink/50">{video.title}</figcaption>
+            <figcaption className="flex items-center gap-3">
+              <span className="text-xs text-foreground-subtle tabular-nums">
+                0{i + 1}
+              </span>
+              <span className="text-sm text-foreground-muted">{video.title}</span>
+            </figcaption>
           </figure>
         ))}
       </div>
     </section>
   );
 }
+

@@ -13,7 +13,7 @@ export default async function Page() {
 
   return (
     <main id="main" className="min-h-[calc(100vh-12rem)]">
-      <div className="mx-auto max-w-doc px-5 py-10 sm:px-8 sm:py-14">
+      <div className="mx-auto max-w-doc px-6 py-12 sm:px-10 sm:py-16">
         <ProposalMarkdown content={content} />
       </div>
       <VimeoGrid />

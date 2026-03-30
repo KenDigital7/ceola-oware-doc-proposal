@@ -2,23 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  /* Dark cinematic palette */
+  --color-background:       #0e0d0b;
+  --color-surface:          #161410;
+  --color-border:           #2a2620;
+  --color-foreground:       #e8e2d6;
+  --color-foreground-muted: #a09890;
+  --color-foreground-subtle:#5a544c;
+  --color-accent:           #c8913a;
+  --radius: 0.25rem;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  @apply bg-paper text-ink antialiased;
+  @apply bg-background text-foreground antialiased;
 }
 
-/* Proposal tables: archive/document feel */
+/* Proposal tables */
 .doc-prose table {
   @apply text-sm;
 }
 
 .doc-prose thead {
-  @apply border-b-2 border-umber/40;
+  @apply border-b-2 border-accent/30;
 }
 
 .doc-prose tbody tr {
-  @apply border-b border-paper-dark;
+  @apply border-b border-border;
 }
+
+/* Ensure table text inherits foreground */
+.doc-prose td,
+.doc-prose th {
+  color: var(--color-foreground);
+}
+
+/* Strong / bold stays bright */
+.doc-prose strong {
+  color: var(--color-foreground);
+}
+
