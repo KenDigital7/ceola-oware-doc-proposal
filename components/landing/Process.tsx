@@ -4,27 +4,27 @@ const STEPS = [
   {
     num: "01",
     title: "Reach Out",
-    body: "Tell Ken about the person whose story you want to preserve. Who are they? What\u2019s their story? Why now?",
+    body: "Tell me about the person whose story you want to preserve. Who are they? What\u2019s their story? Why now?",
   },
   {
     num: "02",
     title: "Discovery Call",
-    body: "Ken calls you (15\u201320 minutes) to understand what you\u2019re looking for, answer questions, and explore if this is the right fit.",
+    body: "I\u2019ll call you (15\u201320 minutes) to understand what you\u2019re looking for, answer questions, and explore if this is the right fit.",
   },
   {
     num: "03",
     title: "Pre-Production Planning",
-    body: "Ken develops the aesthetic, the questions, and the logistics. This is where the real creative work begins \u2014 figuring out how to tell the story in a way that honors both the person and the history.",
+    body: "I develop the aesthetic, the questions, and the logistics. This is where the real creative work begins \u2014 figuring out how to tell the story in a way that honors both the person and the history.",
   },
   {
     num: "04",
     title: "Production Day",
-    body: "Ken comes to your home. You spend a full day documenting the story in a real, natural setting.",
+    body: "I come to your home. We spend a full day documenting the story in a real, natural setting.",
   },
   {
     num: "05",
     title: "Post-Production",
-    body: "Ken shapes the footage into a finished documentary. 3\u20134 weeks later, you have a film.",
+    body: "I shape the footage into a finished documentary. 3\u20134 weeks later, you have a film.",
   },
   {
     num: "06",

@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { DM_Sans, Source_Serif_4 } from "next/font/google";
-import Link from "next/link";
 import "./globals.css";
 
 const serif = Source_Serif_4({
@@ -53,24 +52,18 @@ export default function RootLayout({
               </p>
             </div>
             <nav aria-label="Site navigation" className="flex items-center gap-6">
-              <Link
-                href="/landing"
+              <a
+                href="#package"
                 className="text-xs uppercase tracking-widest text-foreground-muted transition-colors hover:text-foreground"
               >
-                Legacy Package
-              </Link>
-              <Link
-                href="/"
+                Package
+              </a>
+              <a
+                href="#work"
                 className="text-xs uppercase tracking-widest text-foreground-muted transition-colors hover:text-foreground"
               >
-                Proposal
-              </Link>
-              <Link
-                href="/landing#contact"
-                className="hidden border border-accent px-4 py-2 text-xs uppercase tracking-widest text-accent transition-opacity hover:opacity-70 sm:inline-block"
-              >
-                Discuss Your Story
-              </Link>
+                Work
+              </a>
             </nav>
           </div>
         </header>

@@ -1,7 +1,7 @@
 import { SectionLabel } from "./SectionLabel";
 
 const PRE_PRODUCTION = [
-  "Discovery consultation — Ken listens to understand your story and the questions that matter most",
+  "Discovery consultation — I listen to understand your story and the questions that matter most",
   "Aesthetic planning — decisions about where to film and how to visually frame the story",
   "Question development — help articulating questions that draw out the deepest, most meaningful responses",
   "Logistics coordination — timeline, home access, comfort considerations, special requests",
@@ -10,12 +10,12 @@ const PRE_PRODUCTION = [
 const PRODUCTION = [
   "Single full-day shoot in your home (typically 4–6 hours depending on story scope)",
   "Professional lighting, audio, and camera work designed for your living room",
-  "Guided conversation — Ken facilitates the interview to draw out authentic moments and reflection",
+  "Guided conversation — I facilitate the interview to draw out authentic moments and reflection",
   "Visual storytelling — integration of family photographs, heirlooms, and meaningful artifacts",
 ];
 
 const POST_PRODUCTION = [
-  "Full edit — Ken shapes raw footage into a narrative arc that honors the speaker",
+  "Full edit — I shape raw footage into a narrative arc that honors the speaker",
   "Color grading — professional treatment ensuring gallery-quality results",
   "Sound design — professional audio mixing and licensed music selection",
   "Closed captions — full accessibility and archival preservation",
@@ -27,8 +27,8 @@ const INCLUDED = [
   "You don\u2019t have to figure out how to operate a camera",
   "You don\u2019t have to learn video editing or color grading",
   "You don\u2019t have to navigate technical formats or archival specifications",
-  "You don\u2019t have to make aesthetic choices alone \u2014 Ken brings expertise and options",
-  "You don\u2019t have to worry about whether it will look professional \u2014 it will",
+  "You don\u2019t have to make aesthetic choices alone — I bring expertise and options",
+  "You don\u2019t have to worry about whether it will look professional — it will",
 ];
 
 function PackageList({
@@ -58,6 +58,7 @@ function PackageList({
 export function Package() {
   return (
     <section
+      id="package"
       aria-labelledby="package-heading"
       className="border-t border-border bg-surface"
     >

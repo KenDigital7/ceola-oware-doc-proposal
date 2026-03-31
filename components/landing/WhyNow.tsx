@@ -22,23 +22,22 @@ export function WhyNow() {
         {/* Right: body */}
         <div className="flex flex-col gap-5 text-base leading-relaxed text-foreground-muted">
           <p>
-            A friend reaches out, years after her father has passed,
-            desperately searching for the video she wishes she&apos;d made.
-            Another family member steps in, motivated by the knowledge that
-            their parent carries stories no one else in the family
-            knows&mdash;especially the men&apos;s knowledge passed down through
-            male relatives, cultural histories that lived only in conversation.
+            I&apos;ve had friends reach out years after their father passed,
+            desperately wishing they&apos;d made that video when they had the
+            chance. I&apos;ve seen family members step in at the last moment,
+            motivated by the knowledge that their parent carries stories no one
+            else knows&mdash;especially the kind of knowledge passed down
+            through generations, cultural histories that live only in
+            conversation.
           </p>
+          <p>These are the moments that define legacy work.</p>
           <p>
-            These are the moments that define legacy work.
-          </p>
-          <p>
-            Ken has sat in this position. He&apos;s watched it matter. He&apos;s
-            seen families years later reaching back, grateful that one decision
-            to document changed what their children and grandchildren would
-            know. He&apos;s also lived it&mdash;with roots in Chicago&apos;s
-            South and West Side communities, he understands that documentation
-            is an act of love for the next generation.
+            I&apos;ve sat in this position myself. I&apos;ve watched it matter.
+            I&apos;ve seen families years later reaching back, grateful that one
+            decision to document changed what their children and grandchildren
+            would know. With my own roots in Chicago&apos;s South and West Side
+            communities, I understand that documentation is an act of love for
+            the next generation.
           </p>
         </div>
       </div>
@@ -52,7 +51,7 @@ export function WhyNow() {
           history. He knows things even his own siblings don&apos;t know.&rdquo;
         </p>
         <footer className="mt-5 text-sm uppercase tracking-widest text-foreground-subtle">
-          &mdash; Ceola, documentary client
+          &mdash; Ceola
         </footer>
       </blockquote>
     </section>

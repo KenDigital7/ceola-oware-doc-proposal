@@ -1,22 +1,28 @@
-import fs from "node:fs/promises";
-import path from "node:path";
-import { ProposalMarkdown } from "@/components/ProposalMarkdown";
+import { Hero } from "@/components/landing/Hero";
+import { WhyNow } from "@/components/landing/WhyNow";
+import { About } from "@/components/landing/About";
+import { Package } from "@/components/landing/Package";
+import { Process } from "@/components/landing/Process";
 import { VimeoGrid } from "@/components/VimeoGrid";
+import type { Metadata } from "next";
 
-export default async function Page() {
-  const mdPath = path.join(
-    process.cwd(),
-    "proposals",
-    "ceola-dad-documentary-proposal.md",
-  );
-  const content = await fs.readFile(mdPath, "utf-8");
+export const metadata: Metadata = {
+  title: "Preserve the Stories That Matter — Kenctures Inc",
+  description:
+    "Professional family legacy documentary filmmaking. One camera. One day. Forever. Ken Williams Jr · Kenctures Inc · Chicago.",
+};
 
+export default function Page() {
   return (
-    <main id="main" className="min-h-[calc(100vh-12rem)]">
-      <div className="mx-auto max-w-doc px-6 py-12 sm:px-10 sm:py-16">
-        <ProposalMarkdown content={content} />
+    <main id="main">
+      <Hero />
+      <WhyNow />
+      <About />
+      <Package />
+      <Process />
+      <div id="work">
+        <VimeoGrid />
       </div>
-      <VimeoGrid />
     </main>
   );
 }
