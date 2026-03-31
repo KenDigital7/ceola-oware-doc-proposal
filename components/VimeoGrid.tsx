@@ -53,7 +53,7 @@ export function VimeoGrid() {
         </p>
       </div>
 
-      <div className="grid gap-8 sm:grid-cols-2">
+      <div className="mx-auto max-w-doc grid gap-8">
         {VIDEOS.map((video, i) => (
           <figure key={video.id} className="flex flex-col gap-3">
             <div
