@@ -59,7 +59,7 @@ export function Package() {
     <section
       id="package"
       aria-labelledby="package-heading"
-      className="border-t border-border bg-surface"
+      className="border-t border-border"
     >
       <div className="mx-auto max-w-doc px-6 py-20 sm:px-10 sm:py-28">
         <SectionLabel label="The Production Package" />
