@@ -42,7 +42,7 @@ export default function RootLayout({
 
         {/* Header */}
         <header className="border-b border-border">
-          <div className="mx-auto flex max-w-doc flex-wrap items-center justify-between gap-3 px-6 py-5 sm:px-10">
+          <div className="mx-auto flex max-w-doc flex-wrap items-center justify-between gap-3 px-10 py-5">
             <div>
               <p className="font-serif text-base font-semibold tracking-wide text-foreground">
                 Ken Williams Jr
@@ -71,7 +71,7 @@ export default function RootLayout({
         {children}
 
         {/* Footer */}
-        <footer className="mt-20 border-t border-border px-6 py-10 sm:px-10">
+        <footer className="mt-10 border-t border-border px-10 py-10">
           <div className="mx-auto max-w-doc flex flex-col items-center gap-3 text-center">
             <p className="font-serif text-sm text-foreground-muted">
               <a

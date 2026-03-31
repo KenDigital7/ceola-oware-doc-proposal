@@ -31,7 +31,7 @@ export function VimeoGrid() {
   return (
     <section
       aria-labelledby="sample-work-heading"
-      className="px-6 pb-16 pt-12 sm:px-10"
+      className="px-10 py-10"
     >
       <div className="mx-auto max-w-doc">
         {/* Section label */}

@@ -61,7 +61,7 @@ export function Package() {
       aria-labelledby="package-heading"
       className="border-t border-border"
     >
-      <div className="mx-auto max-w-doc px-6 py-20 sm:px-10 sm:py-28">
+      <div className="mx-auto max-w-doc px-10 py-10">
         <SectionLabel label="The Production Package" />
 
         {/* Headline + price */}

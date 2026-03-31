@@ -6,7 +6,7 @@ export function Hero() {
       aria-labelledby="hero-heading"
       className="flex min-h-[70vh] flex-col justify-end"
     >
-      <div className="mx-auto w-full max-w-doc px-6 pb-20 pt-24 sm:px-10 sm:pb-28">
+      <div className="mx-auto w-full max-w-doc px-10 pb-10 pt-10">
         <p className="mb-6 text-xs uppercase tracking-widest text-foreground-subtle">
           Kenctures Inc &mdash; Legacy Documentary Service
         </p>
