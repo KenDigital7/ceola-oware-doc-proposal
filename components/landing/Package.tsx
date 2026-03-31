@@ -130,7 +130,7 @@ export function Package() {
           </div>
           <div>
             <p className="text-xs uppercase tracking-widest text-foreground-subtle">Runtime</p>
-            <p className="mt-1 text-sm text-foreground-muted">Determined collaboratively — typically 5–15 minutes</p>
+            <p className="mt-1 text-sm text-foreground-muted">Determined collaboratively based on scope</p>
           </div>
           <div>
             <p className="text-xs uppercase tracking-widest text-foreground-subtle">Location</p>
