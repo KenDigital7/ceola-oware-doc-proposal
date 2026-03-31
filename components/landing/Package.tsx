@@ -126,7 +126,7 @@ export function Package() {
         <div className="mt-8 flex flex-wrap gap-8 border-t border-border pt-8">
           <div>
             <p className="text-xs uppercase tracking-widest text-foreground-subtle">Timeline</p>
-            <p className="mt-1 text-sm text-foreground-muted">3–4 weeks from production day to finished film</p>
+            <p className="mt-1 text-sm text-foreground-muted">4–6 weeks from production day</p>
           </div>
           <div>
             <p className="text-xs uppercase tracking-widest text-foreground-subtle">Runtime</p>
