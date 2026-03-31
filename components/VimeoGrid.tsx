@@ -31,25 +31,27 @@ export function VimeoGrid() {
   return (
     <section
       aria-labelledby="sample-work-heading"
-      className="mx-auto max-w-doc px-6 pb-16 pt-12 sm:px-10"
+      className="px-6 pb-16 pt-12 sm:px-10"
     >
-      {/* Section label */}
-      <div className="mb-10 flex items-center gap-4">
-        <span className="text-xs uppercase tracking-widest text-foreground-subtle">
-          Sample Work
-        </span>
-        <div className="flex-1 border-t border-border" />
-      </div>
+      <div className="mx-auto max-w-doc">
+        {/* Section label */}
+        <div className="mb-10 flex items-center gap-4">
+          <span className="text-xs uppercase tracking-widest text-foreground-subtle">
+            Sample Work
+          </span>
+          <div className="flex-1 border-t border-border" />
+        </div>
 
-      <h2
-        id="sample-work-heading"
-        className="mb-3 font-serif text-3xl font-normal tracking-tight text-foreground sm:text-4xl"
-      >
-        Previous Work
-      </h2>
-      <p className="mb-10 max-w-measure text-base leading-relaxed text-foreground-muted">
-        A selection of interview and documentary productions for reference — demonstrating approach, craft, and editorial standard.
-      </p>
+        <h2
+          id="sample-work-heading"
+          className="mb-3 font-serif text-4xl font-normal tracking-tight text-foreground sm:text-5xl"
+        >
+          Previous Work
+        </h2>
+        <p className="mb-10 max-w-measure text-lg leading-relaxed text-foreground-muted">
+          A selection of interview and documentary productions for reference — demonstrating approach, craft, and editorial standard.
+        </p>
+      </div>
 
       <div className="grid gap-8 sm:grid-cols-2">
         {VIDEOS.map((video, i) => (
@@ -79,4 +81,5 @@ export function VimeoGrid() {
     </section>
   );
 }
+
 
