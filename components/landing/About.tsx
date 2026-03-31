@@ -43,10 +43,8 @@ export function About() {
               archival. The personal becomes the historical.
             </p>
             <p>
-              Your father&apos;s factory work, your mother&apos;s migration
-              route, your grandparent&apos;s business struggles and
-              triumphs&mdash;these aren&apos;t small stories. They&apos;re the
-              foundation of everything that came after.
+              Your family&apos;s work and story provides the foundation of
+              everything that came after.
             </p>
 
 
