@@ -26,6 +26,7 @@ const STEPS = [
 export function Process() {
   return (
     <section
+      id="process"
       aria-labelledby="process-heading"
       className="border-t border-border bg-surface"
     >

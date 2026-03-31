@@ -53,10 +53,10 @@ export default function RootLayout({
             </div>
             <nav aria-label="Site navigation" className="flex items-center gap-6">
               <a
-                href="#package"
+                href="#process"
                 className="text-xs uppercase tracking-widest text-foreground-muted transition-colors hover:text-foreground"
               >
-                Package
+                Process
               </a>
               <a
                 href="#work"
