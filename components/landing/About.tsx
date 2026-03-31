@@ -49,10 +49,7 @@ export function About() {
               foundation of everything that came after.
             </p>
 
-            <p className="mt-2 font-serif text-lg italic text-foreground">
-              &ldquo;Vision is what sets a storyteller apart. And every story
-              deserves to be seen.&rdquo;
-            </p>
+
           </div>
         </div>
       </div>
