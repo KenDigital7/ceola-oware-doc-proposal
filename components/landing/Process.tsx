@@ -3,31 +3,21 @@ import { SectionLabel } from "./SectionLabel";
 const STEPS = [
   {
     num: "01",
-    title: "Reach Out",
-    body: "Tell me about the person whose story you want to preserve. Who are they? What\u2019s their story? Why now?",
-  },
-  {
-    num: "02",
-    title: "Discovery Call",
-    body: "I\u2019ll call you (15\u201320 minutes) to understand what you\u2019re looking for, answer questions, and explore if this is the right fit.",
-  },
-  {
-    num: "03",
     title: "Pre-Production Planning",
     body: "I develop the aesthetic, the questions, and the logistics. This is where the real creative work begins \u2014 figuring out how to tell the story in a way that honors both the person and the history.",
   },
   {
-    num: "04",
+    num: "02",
     title: "Production Day",
     body: "I come to your home. We spend a full day documenting the story in a real, natural setting.",
   },
   {
-    num: "05",
+    num: "03",
     title: "Post-Production",
     body: "I shape the footage into a finished documentary. 3\u20134 weeks later, you have a film.",
   },
   {
-    num: "06",
+    num: "04",
     title: "You Share It",
     body: "It\u2019s yours now. Share it with your family, add it to your archive, pass it down. The work continues.",
   },
@@ -46,10 +36,10 @@ export function Process() {
           id="process-heading"
           className="mb-16 font-serif text-4xl font-normal leading-tight tracking-tight text-foreground text-balance sm:text-5xl"
         >
-          Six Steps to a Finished Film
+          Four Steps to a Finished Film
         </h2>
 
-        <div className="grid gap-px border border-border bg-border sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-px border border-border bg-border sm:grid-cols-2">
           {STEPS.map((step) => (
             <div
               key={step.num}
