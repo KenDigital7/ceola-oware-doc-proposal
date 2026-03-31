@@ -75,7 +75,7 @@ export function Package() {
           <div className="text-right">
             <p className="font-serif text-4xl font-normal text-accent">$4,000</p>
             <p className="mt-1 text-xs uppercase tracking-widest text-foreground-subtle">
-              Paid in installments
+              2 installments
             </p>
           </div>
         </div>
@@ -126,11 +126,11 @@ export function Package() {
         <div className="mt-8 flex flex-wrap gap-8 border-t border-border pt-8">
           <div>
             <p className="text-xs uppercase tracking-widest text-foreground-subtle">Timeline</p>
-            <p className="mt-1 text-sm text-foreground-muted">3–4 weeks from production day to finished film</p>
+            <p className="mt-1 text-sm text-foreground-muted">4–6 weeks from production day</p>
           </div>
           <div>
             <p className="text-xs uppercase tracking-widest text-foreground-subtle">Runtime</p>
-            <p className="mt-1 text-sm text-foreground-muted">Determined collaboratively — typically 5–15 minutes</p>
+            <p className="mt-1 text-sm text-foreground-muted">Determined collaboratively based on scope</p>
           </div>
           <div>
             <p className="text-xs uppercase tracking-widest text-foreground-subtle">Location</p>
