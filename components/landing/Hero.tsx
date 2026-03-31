@@ -12,13 +12,13 @@ export function Hero() {
         </p>
         <h1
           id="hero-heading"
-          className="mb-6 font-serif text-5xl font-normal leading-tight tracking-tight text-foreground text-balance sm:text-6xl lg:text-7xl"
+          className="mb-6 font-serif text-3xl font-normal leading-tight tracking-tight text-foreground text-balance sm:text-5xl md:text-6xl lg:text-7xl"
         >
           Intergenerational Knowledge.
           <br />
           <span className="text-accent">Preserved.</span>
         </h1>
-        <p className="mb-10 max-w-measure text-lg leading-relaxed text-foreground-muted">
+        <p className="mb-10 max-w-measure text-base leading-relaxed text-foreground-muted sm:text-lg">
           Professional documentary filmmaking for the stories you{" "}
           <em>can&apos;t afford to lose.</em>
         </p>
