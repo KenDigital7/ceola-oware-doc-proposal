@@ -16,11 +16,11 @@ export default function Page() {
     <main id="main">
       <Hero />
       <About />
-      <Package />
-      <Process />
       <div id="work">
         <VimeoGrid />
       </div>
+      <Package />
+      <Process />
     </main>
   );
 }

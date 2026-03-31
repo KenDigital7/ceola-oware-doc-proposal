@@ -9,7 +9,7 @@ export function About() {
       <div className="mx-auto max-w-doc px-6 py-20 sm:px-10 sm:py-28">
         <SectionLabel label="The Philosophy" />
 
-        <div className="grid gap-16 lg:grid-cols-[1fr_1.1fr] lg:gap-24">
+        <div className="flex flex-col gap-10">
           <div>
             <h2
               id="about-heading"

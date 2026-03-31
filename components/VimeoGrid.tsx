@@ -12,6 +12,7 @@ const VIDEOS: VimeoVideo[] = [
   { id: "1163159879", h: "b0eff44a22", title: "Historical Montage Spotlight" },
   { id: "1169068989", title: "Family Storytelling" },
   { id: "1169069067", title: "Homemade Video Sample" },
+  { id: "379462250", title: "Documentary Sample" },
 ];
 
 function vimeoSrc({ id, h }: VimeoVideo) {
