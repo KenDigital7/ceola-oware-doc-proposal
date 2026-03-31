@@ -30,7 +30,7 @@ export function Process() {
       aria-labelledby="process-heading"
       className="border-t border-border bg-surface"
     >
-      <div className="mx-auto max-w-doc px-6 py-20 sm:px-10 sm:py-28">
+      <div className="mx-auto max-w-doc px-10 py-10">
         <SectionLabel label="How to Begin" />
 
         <h2
