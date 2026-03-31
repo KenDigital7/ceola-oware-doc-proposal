@@ -36,7 +36,8 @@ body {
 }
 
 .doc-prose tbody tr {
-  @apply border-b border-border;
+  @apply border-b;
+  border-color: rgba(42, 38, 32, 0.4);
 }
 
 /* Ensure table text inherits foreground */

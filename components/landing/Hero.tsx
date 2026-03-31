@@ -4,9 +4,9 @@ export function Hero() {
   return (
     <section
       aria-labelledby="hero-heading"
-      className="flex min-h-[70vh] flex-col justify-end"
+      className="flex flex-col justify-center"
     >
-      <div className="mx-auto w-full max-w-doc px-10 pb-10 pt-10">
+      <div className="mx-auto w-full max-w-doc px-10 py-16">
         <p className="mb-6 text-xs uppercase tracking-widest text-foreground-subtle">
           Kenctures Inc &mdash; Legacy Documentary Service
         </p>
@@ -18,7 +18,7 @@ export function Hero() {
           <br />
           <span className="text-accent">Preserved.</span>
         </h1>
-        <p className="mb-10 max-w-measure text-base leading-relaxed text-foreground-muted sm:text-lg">
+        <p className="mb-10 max-w-measure text-lg leading-relaxed text-foreground-muted sm:text-xl">
           Professional documentary filmmaking for the stories you{" "}
           <em>can&apos;t afford to lose.</em>
         </p>
