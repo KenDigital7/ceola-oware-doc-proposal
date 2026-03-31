@@ -42,18 +42,7 @@ export function WhyNow() {
         </div>
       </div>
 
-      {/* Pull quote */}
-      <blockquote className="relative mt-20 border-l-2 border-accent pl-8 sm:pl-12">
-        <p className="font-serif text-xl font-normal italic leading-relaxed text-foreground sm:text-2xl lg:text-3xl text-pretty">
-          &ldquo;Now that my mother has passed, I see all these unanswered
-          questions. But I still have the opportunity to help on my dad&apos;s
-          side. Because when he passes, that&apos;s it in terms of long-standing
-          history. He knows things even his own siblings don&apos;t know.&rdquo;
-        </p>
-        <footer className="mt-5 text-sm uppercase tracking-widest text-foreground-subtle">
-          &mdash; Ceola
-        </footer>
-      </blockquote>
+
     </section>
   );
 }
