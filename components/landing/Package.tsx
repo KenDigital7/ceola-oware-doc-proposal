@@ -75,7 +75,7 @@ export function Package() {
           <div className="text-right">
             <p className="font-serif text-4xl font-normal text-accent">$4,000</p>
             <p className="mt-1 text-xs uppercase tracking-widest text-foreground-subtle">
-              One investment
+              Paid in installments
             </p>
           </div>
         </div>
@@ -112,6 +112,13 @@ export function Package() {
             family&apos;s story, and a finished film you&apos;ll be proud to
             share with your children, grandchildren, and the generations to
             come.
+          </p>
+        </div>
+
+        {/* Exclusions note */}
+        <div className="mt-12 border-l-2 border-accent pl-6 py-6 sm:pl-8">
+          <p className="text-sm leading-relaxed text-foreground-muted">
+            <span className="text-accent font-semibold">Not included in the $4,000 package:</span> social cutdowns, trailer, YouTube/Instagram packaging, thumbnail strategy, paid ads, or additional interviews for series expansion. Those are add-ons quoted separately.
           </p>
         </div>
 
