@@ -19,8 +19,8 @@ export default function Page() {
       <div id="work">
         <VimeoGrid />
       </div>
-      <Package />
       <Process />
+      <Package />
     </main>
   );
 }
