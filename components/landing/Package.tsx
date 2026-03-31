@@ -18,7 +18,6 @@ const POST_PRODUCTION = [
   "Full edit — I shape raw footage into a narrative arc that honors the speaker",
   "Color grading — professional treatment ensuring gallery-quality results",
   "Sound design — professional audio mixing and licensed music selection",
-  "Closed captions — full accessibility and archival preservation",
   "Title sequences & graphics — professional opening and closing grounded in time and context",
   "Delivery files — HD digital, archival master, and social-ready versions",
 ];
