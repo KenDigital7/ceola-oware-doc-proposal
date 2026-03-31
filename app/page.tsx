@@ -1,5 +1,4 @@
 import { Hero } from "@/components/landing/Hero";
-import { WhyNow } from "@/components/landing/WhyNow";
 import { About } from "@/components/landing/About";
 import { Package } from "@/components/landing/Package";
 import { Process } from "@/components/landing/Process";
@@ -16,7 +15,6 @@ export default function Page() {
   return (
     <main id="main">
       <Hero />
-      <WhyNow />
       <About />
       <Package />
       <Process />
