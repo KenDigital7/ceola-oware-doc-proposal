@@ -14,11 +14,9 @@ export function Hero() {
           id="hero-heading"
           className="mb-6 font-serif text-5xl font-normal leading-tight tracking-tight text-foreground text-balance sm:text-6xl lg:text-7xl"
         >
-          One Camera.
+          Intergenerational Knowledge.
           <br />
-          One Day.
-          <br />
-          <span className="text-accent">Forever.</span>
+          <span className="text-accent">Preserved.</span>
         </h1>
         <p className="mb-10 max-w-measure text-lg leading-relaxed text-foreground-muted">
           Professional documentary filmmaking for the stories you{" "}
