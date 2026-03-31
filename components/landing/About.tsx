@@ -23,7 +23,7 @@ export function About() {
             <p>
               Years ago, a friend faced a choice: her father was in cancer
               remission, and time suddenly felt urgent. She asked me to sit down
-              and document his stories&mdash;just conversational questions about
+              and document his stories... just conversational questions about
               his life, his reflections, his hopes for the family. Two years
               later, that father passed away. The family still has that video.
               They still reach for it. It shaped what the grandchildren know
@@ -35,8 +35,8 @@ export function About() {
             </p>
             <p>
               I&apos;ve brought this same intentionality to everything I
-              do&mdash;whether documenting Chicago&apos;s West Side for the
-              &ldquo;Making Meaning&rdquo; archival project, or sitting in
+              do, whether documenting Chicago&apos;s West Side for the
+              &ldquo;Make Meaning&rdquo; archival project, or sitting in
               someone&apos;s living room capturing their family story. The
               underlying principle is the same: everyday life, when documented
               with care and craft, becomes fine art. The domestic becomes the
