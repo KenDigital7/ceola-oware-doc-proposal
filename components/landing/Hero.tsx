@@ -29,12 +29,6 @@ export function Hero() {
           >
             See My Work
           </Link>
-          <Link
-            href="#package"
-            className="inline-block border border-border px-7 py-3 font-sans text-sm uppercase tracking-widest text-foreground-muted transition-colors hover:border-foreground-muted"
-          >
-            View Package
-          </Link>
         </div>
       </div>
     </section>
