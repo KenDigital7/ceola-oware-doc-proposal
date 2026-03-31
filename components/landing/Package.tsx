@@ -75,7 +75,7 @@ export function Package() {
           <div className="text-right">
             <p className="font-serif text-4xl font-normal text-accent">$4,000</p>
             <p className="mt-1 text-xs uppercase tracking-widest text-foreground-subtle">
-              Paid in installments
+              2 installments
             </p>
           </div>
         </div>
