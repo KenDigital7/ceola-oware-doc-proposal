@@ -35,37 +35,66 @@ export default function RootLayout({
       <body className="min-h-screen font-sans">
         <a
           href="#main"
-          className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded focus:bg-umber focus:px-3 focus:py-2 focus:text-paper"
+          className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded focus:bg-accent focus:px-3 focus:py-2 focus:text-background"
         >
           Skip to main content
         </a>
-        <header className="border-b border-paper-dark bg-paper-dark/40">
-          <div className="mx-auto flex max-w-doc flex-wrap items-center justify-between gap-3 px-5 py-4 sm:px-8">
+
+        {/* Header */}
+        <header className="border-b border-border">
+          <div className="mx-auto flex max-w-doc flex-wrap items-center justify-between gap-3 px-6 py-5 sm:px-10">
             <div>
-              <p className="font-serif text-lg font-semibold text-ink">
+              <p className="font-serif text-base font-semibold tracking-wide text-foreground">
                 Ken Williams Jr
               </p>
-              <p className="text-sm text-ink/70">Kenctures Inc · Documentary proposal</p>
+              <p className="mt-0.5 text-xs uppercase tracking-widest text-foreground-subtle">
+                Kenctures Inc
+              </p>
             </div>
-            <p className="text-right text-sm text-ink/60">March 2026</p>
+            <nav aria-label="Site navigation" className="flex items-center gap-6">
+              <a
+                href="#process"
+                className="text-xs uppercase tracking-widest text-foreground-muted transition-colors hover:text-foreground"
+              >
+                Process
+              </a>
+              <a
+                href="#work"
+                className="text-xs uppercase tracking-widest text-foreground-muted transition-colors hover:text-foreground"
+              >
+                Work
+              </a>
+            </nav>
           </div>
         </header>
+
         {children}
-        <footer className="mt-16 border-t border-paper-dark bg-paper-dark/30 px-5 py-8 sm:px-8">
-          <div className="mx-auto max-w-doc text-center text-sm text-ink/65">
-            <p>
-              <a href="mailto:info@kenctures.com" className="text-umber hover:underline">
+
+        {/* Footer */}
+        <footer className="mt-20 border-t border-border px-6 py-10 sm:px-10">
+          <div className="mx-auto max-w-doc flex flex-col items-center gap-3 text-center">
+            <p className="font-serif text-sm text-foreground-muted">
+              <a
+                href="mailto:info@kenctures.com"
+                className="text-accent transition-opacity hover:opacity-70"
+              >
                 info@kenctures.com
               </a>
-              {" · "}
-              <a href="tel:7083591464" className="text-umber hover:underline">
+              <span className="mx-3 text-border">&middot;</span>
+              <a
+                href="tel:7083591464"
+                className="text-accent transition-opacity hover:opacity-70"
+              >
                 708.359.1464
               </a>
             </p>
-            <p className="mt-2">© 2026 Kenctures Inc. All rights reserved.</p>
+            <p className="text-xs uppercase tracking-widest text-foreground-subtle">
+              &copy; 2026 Kenctures Inc. All rights reserved.
+            </p>
           </div>
         </footer>
       </body>
     </html>
   );
 }
+
