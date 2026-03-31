@@ -1,0 +1,61 @@
+import { SectionLabel } from "./SectionLabel";
+
+export function About() {
+  return (
+    <section
+      aria-labelledby="about-heading"
+      className="border-t border-border"
+    >
+      <div className="mx-auto max-w-doc px-6 py-20 sm:px-10 sm:py-28">
+        <SectionLabel label="The Philosophy" />
+
+        <div className="grid gap-16 lg:grid-cols-[1fr_1.1fr] lg:gap-24">
+          <div>
+            <h2
+              id="about-heading"
+              className="font-serif text-4xl font-normal leading-tight tracking-tight text-foreground text-balance sm:text-5xl"
+            >
+              Why Ken Does This Work
+            </h2>
+          </div>
+
+          <div className="flex flex-col gap-5 text-base leading-relaxed text-foreground-muted">
+            <p>
+              Years ago, Ken&apos;s friend faced a choice: her father was in
+              cancer remission, and time suddenly felt urgent. She asked Ken to
+              sit down and document his stories&mdash;just conversational
+              questions about his life, his reflections, his hopes for the
+              family. Two years later, that father passed away. The family still
+              has that video. They still reach out for it. It shaped what the
+              grandchildren know about where they come from.
+            </p>
+            <p>
+              That&apos;s when Ken understood: legacy work isn&apos;t a luxury.
+              It&apos;s a responsibility.
+            </p>
+            <p>
+              He&apos;s brought this same intentionality to everything he
+              does&mdash;whether documenting Chicago&apos;s West Side for the
+              &ldquo;Making Meaning&rdquo; archival project, or sitting in
+              someone&apos;s living room capturing their family story. The
+              underlying principle is the same: everyday life, when documented
+              with care and craft, becomes fine art. The domestic becomes the
+              archival. The personal becomes the historical.
+            </p>
+            <p>
+              Your father&apos;s factory work, your mother&apos;s migration
+              route, your grandparent&apos;s business struggles and
+              triumphs&mdash;these aren&apos;t small stories. They&apos;re the
+              foundation of everything that came after.
+            </p>
+
+            <p className="mt-2 font-serif text-lg italic text-foreground">
+              &ldquo;Vision is what sets a storyteller apart. And every story
+              deserves to be seen.&rdquo;
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
