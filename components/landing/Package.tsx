@@ -134,7 +134,7 @@ export function Package() {
           </div>
           <div>
             <p className="text-xs uppercase tracking-widest text-foreground-subtle">Location</p>
-            <p className="mt-1 text-sm text-foreground-muted">Chicago-based; available for projects anywhere</p>
+            <p className="mt-1 text-sm text-foreground-muted">Chicago-based</p>
           </div>
         </div>
       </div>
