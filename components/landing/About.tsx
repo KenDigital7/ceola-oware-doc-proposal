@@ -4,7 +4,7 @@ export function About() {
   return (
     <section
       aria-labelledby="about-heading"
-      className="border-t border-border"
+      className="border-t border-border bg-surface"
     >
       <div className="mx-auto max-w-doc px-6 py-20 sm:px-10 sm:py-28">
         <SectionLabel label="The Philosophy" />
